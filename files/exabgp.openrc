@@ -9,7 +9,7 @@ description="Exabgp for unbound"
 : ${cfgfile:=${EXABGP_CONFFILE:-/etc/exabgp/exabgp.conf}}
 : ${envfile:=${EXABGP_ENVFILE:-/etc/exabgp/exabgp.env}}
 
-command="/usr/bin/exabgp"
+command="/usr/local/bin/exabgp"
 command_args="-e $envfile $cfgfile"
 command_background=yes
 pidfile="/run/$RC_SVCNAME.pid"

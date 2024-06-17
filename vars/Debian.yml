@@ -1,6 +1,6 @@
 ---
 
 exabgp_packages:
-  - python3-pip
+  - python3-pipx
 
 # vim: set ts=2 sw=2:

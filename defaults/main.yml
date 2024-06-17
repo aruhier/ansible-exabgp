@@ -1,6 +1,5 @@
 ---
 
-exabgp_version: null
 exabgp_pip_name: exabgp
 
 exabgp_env:
